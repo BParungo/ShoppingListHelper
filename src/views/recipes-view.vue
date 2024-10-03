@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import { addRecipe, getRecipeAll } from "../firebase";
+import { getRecipeAll } from "../firebase";
 import { DocumentData } from "firebase/firestore";
 import RecipeItem from "@/components/recipe-item.vue";
 

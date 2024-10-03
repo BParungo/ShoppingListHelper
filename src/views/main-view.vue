@@ -17,7 +17,6 @@ onMounted(async () => {
   if (setting.value) {
     categories.value = setting.value.data.categories;
   }
-  console.log(setting.value);
 });
 
 async function addCategory(input: string) {
